@@ -1,0 +1,34 @@
+# Служебные файлы macOS
+.DS_Store
+._*
+
+# Результаты компиляции C
+*.o
+*.a
+*.so
+*.dylib
+*.d
+*.dSYM/
+a.out
+build/
+
+# Отчёты о покрытии тестами
+*.gcda
+*.gcno
+*.gcov
+coverage.info
+/c-string+_lib/report/
+
+# Кэш Python-скриптов
+__pycache__/
+*.pyc
+
+# Исполняемые файлы cat и grep
+/simple_bash/cat
+/simple_bash/s21_cat
+/simple_bash/s21_grep
+
+# Исполняемые файлы тестов библиотеки
+/c-string+_lib/test
+/c-string+_lib/test1
+/c-string+_lib/test2
